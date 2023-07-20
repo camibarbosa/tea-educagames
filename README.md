@@ -1,3 +1,17 @@
+# TEA EducaGames
+
+## Descrição
+
+Esta é uma versão atualizada do projeto que está sendo desenvolvido para uma atividade extensionista da faculdade.
+
+## Tecnologias Utilizadas
+
+- NEXT.js
+- JavaScript
+- TailwindCSS
+- MongoDB
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
