@@ -52,7 +52,7 @@ export default function Contato() {
             value={fullname}
             type="text"
             id="fullname"
-            placeholder="João Silva"
+            placeholder="Laura Souza"
           />
         </div>
 
@@ -63,7 +63,7 @@ export default function Contato() {
             value={email}
             type="text"
             id="email"
-            placeholder="joaosilva@gmail.com"
+            placeholder="laurasouza@gmail.com"
           />
         </div>
 

@@ -1,10 +1,10 @@
 import Head from "next/head";
-import Card from "@/components/pages/Card/page";
-import NavBar from "@/components/pages/Navbar/page";
-import Slide from "@/components/Slide/page";
-import Footer from "@/components/pages/Footer/page";
-import Sobre from "@/components/Sobre/page";
-import Contato from "@/components/pages/Contato/page";
+import Card from "@/app/pages/Card/page";
+import NavBar from "@/app/pages/Navbar/page";
+import Slide from "@/app/pages/Slide/page";
+import Footer from "@/app/pages/Footer/page";
+import Sobre from "@/app/pages/Sobre/page";
+import Contato from "@/app/pages/Contato/page";
 
 export default function Home() {
   return (

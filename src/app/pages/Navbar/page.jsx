@@ -54,7 +54,7 @@ export default function NavBar() {
                     <Link  activeClassName="is-active"  href="/" onClick={() => setNavbar(!navbar)}>
                         <li>Inicio</li>
                     </Link >
-                    <Link  activeClassName="is-active"  href="/#jogos" onClick={() => setNavbar(!navbar)}>
+                    <Link  activeClassName="is-active"  href="#jogos" onClick={() => setNavbar(!navbar)}>
                     <li>Jogos</li>
                   </Link >
                   <Link href="/#sobre" onClick={() => setNavbar(!navbar)}>

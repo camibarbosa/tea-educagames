@@ -1,6 +1,7 @@
 "use client";
 import Image from 'next/image';
 import { useState } from 'react';
+import React from 'react';
 
 import palavras from '../../../assets/palavras.jpg'
 import familia from '../../../assets/familia-img.jpg'
@@ -9,12 +10,17 @@ import almoco from '../../../assets/almoco-img.jpg'
 import animais from '../../..//assets/animais.jpg'
 import letras from '../../../assets/letras.jpg'
 import sentidos from '../../../assets/sentidos.jpg'
-import frutas from '../../../assets/frutas.jpg'
-
+import frutas from '../../../assets/fruits.jpg'
+import profissoes from '../../../assets/profissoes.webp'
+import formasGeo from '../../../assets/formas-geo.jpg'
 import Link from 'next/link';
+import formas from '@/app/formas/page';
+import Profissoes from '@/app/profissoes/page';
 
 function Card() {
+    
     const [navbar, setNavbar] = useState(false);
+
     return (
         <div className='bg-slate-100'>
             <h2 id='jogos' className='text-center font-bold mt-20 text-3xl md:text-5xl font-dela text-sky-600'>Jogos</h2>
@@ -29,7 +35,7 @@ function Card() {
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Aprendendo o ABC</h5>
-                             <Link href="/palavras" className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                             <Link activeClassName="is-active"  href="/palavras"  className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-yellow-500 focus:scale-95 transition-all duration-200 ease-out' >Jogar agora</Link>
                         </div>
                     </div>
                     {/* end card */}
@@ -101,7 +107,7 @@ function Card() {
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Sentidos</h5>
-                             <Link href="/corpo/humano" className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                             <Link href="/corpoHumano" className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
                         </div>
                     </div>
                     {/* end card */}
@@ -115,6 +121,31 @@ function Card() {
                              font-medium mt-3'>Animais</h5>
                              <Link href='/animais' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
                         </div>
+                        
+                    </div>
+                    {/* end card */}
+                    <div className="card">
+                        <div className="p-5 flex flex-col">
+                            <div className="rounded-xl overflow-hidden">
+                                <Image src={formasGeo} />
+                            </div>
+                            <h5 className='text-md md:text-xl 
+                             font-medium mt-3'>Formas Geometricas</h5>
+                             <Link href='/formas' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                        </div>
+                        
+                    </div>
+                    {/* end card */}
+                    <div className="card">
+                        <div className="p-5 flex flex-col">
+                            <div className="rounded-xl overflow-hidden">
+                                <Image src={profissoes} />
+                            </div>
+                            <h5 className='text-md md:text-xl 
+                             font-medium mt-3'>Profissões</h5>
+                             <Link href='/profissoes' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                        </div>
+                        
                     </div>
                     {/* end card */}
                     

@@ -1,9 +1,8 @@
 import React from 'react';
 
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
-import Sobre from './components/Sobre/page';
+import Sobre from './app/pages/Sobre/page';
 import Page from '../src/app/page';
-
 
 
 {/*import { createBrowserRouter, RouterProvider } from 'react-router-dom';
