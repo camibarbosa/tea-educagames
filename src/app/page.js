@@ -24,7 +24,6 @@ export default function Home() {
             <p className="mt-8 font-semibold text-gray-600 text-sm">Por favor preencha os campos abaixo</p>
             <Contato target='_blank'/>
         </div>
-
       <Footer target='_blank' />
     </div>
   )

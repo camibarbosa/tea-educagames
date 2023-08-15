@@ -1,10 +1,7 @@
 "use client";
 import React, { useState } from 'react';
-import Image from 'next/image';
-
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
-
 
 function Slide() {
     const slides = [

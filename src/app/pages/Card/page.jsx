@@ -5,17 +5,18 @@ import React from 'react';
 
 import palavras from '../../../assets/palavras.jpg'
 import familia from '../../../assets/familia-img.jpg'
-import emocoes from '../../../assets/emotions.jpg'
+import emocoes from '../../../assets/emocoes.jpg'
 import almoco from '../../../assets/almoco-img.jpg'
 import animais from '../../..//assets/animais.jpg'
 import letras from '../../../assets/letras.jpg'
 import sentidos from '../../../assets/sentidos.jpg'
-import frutas from '../../../assets/fruits.jpg'
-import profissoes from '../../../assets/profissoes.webp'
+import frutas from '../../../assets/frutas.jpg'
+import profissoes from '../../../assets/profissoes.jpg'
 import formasGeo from '../../../assets/formas-geo.jpg'
+import fauna from '../../../assets/fauna-brasileira.jpg'
+import numeros from '../../../assets/numeros.jpg'
 import Link from 'next/link';
-import formas from '@/app/formas/page';
-import Profissoes from '@/app/profissoes/page';
+
 
 function Card() {
     
@@ -34,8 +35,8 @@ function Card() {
                                 <Image src={palavras} />
                             </div>
                             <h5 className='text-md md:text-xl 
-                             font-medium mt-3'>Aprendendo o ABC</h5>
-                             <Link activeClassName="is-active"  href="/palavras"  className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-yellow-500 focus:scale-95 transition-all duration-200 ease-out' >Jogar agora</Link>
+                             font-medium mt-3'>Palavras</h5>
+                             <Link activeClassName="is-active"  href="/palavras"  className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-orange-500 focus:scale-95 transition-all duration-200 ease-out' >Jogar agora</Link>
                         </div>
                     </div>
                     {/* end card */}
@@ -47,7 +48,7 @@ function Card() {
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Membros da família</h5>
-                             <Link href='/familia' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                             <Link href='/familia' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-orange-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
                         </div>
                     </div>
                     {/* end card */}
@@ -59,7 +60,7 @@ function Card() {
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Hora do almoço!</h5>
-                             <Link href='/almoco' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                             <Link href='/almoco' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-orange-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
                         </div>
                     </div>
                     {/* end card */}
@@ -71,7 +72,7 @@ function Card() {
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Emoções</h5>
-                             <Link href='/emocoes' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                             <Link href='/emocoes' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-orange-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
                         </div>
                     </div>
                     {/* end card */}
@@ -83,7 +84,7 @@ function Card() {
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Frutas e suas cores</h5>
-                             <Link href='/frutas' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                             <Link href='/frutas' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-orange-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
                         </div>
                     </div>
                     {/* end card */}
@@ -95,7 +96,7 @@ function Card() {
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Letras do alfabeto</h5>
-                             <Link href='/letras' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                             <Link href='/letras' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-orange-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
                         </div>
                     </div>
                     {/* end card */}
@@ -107,7 +108,7 @@ function Card() {
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Sentidos</h5>
-                             <Link href="/corpoHumano" className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                             <Link href="/corpoHumano" className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-orange-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
                         </div>
                     </div>
                     {/* end card */}
@@ -118,8 +119,8 @@ function Card() {
                                 <Image src={animais} />
                             </div>
                             <h5 className='text-md md:text-xl 
-                             font-medium mt-3'>Animais</h5>
-                             <Link href='/animais' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                             font-medium mt-3'>O que o animal faz?</h5>
+                             <Link href='/animais' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-orange-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
                         </div>
                         
                     </div>
@@ -131,7 +132,7 @@ function Card() {
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Formas Geometricas</h5>
-                             <Link href='/formas' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                             <Link href='/formas' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-orange-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
                         </div>
                         
                     </div>
@@ -143,7 +144,31 @@ function Card() {
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Profissões</h5>
-                             <Link href='/profissoes' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-blue-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                             <Link href='/profissoes' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-orange-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                        </div>
+                        
+                    </div>
+                    {/* end card */}
+                    <div className="card">
+                        <div className="p-5 flex flex-col">
+                            <div className="rounded-xl overflow-hidden">
+                                <Image src={fauna} />
+                            </div>
+                            <h5 className='text-md md:text-xl 
+                             font-medium mt-3'>Bichos da fauna brasileira</h5>
+                             <Link href='/pares' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-orange-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
+                        </div>
+                        
+                    </div>
+                    {/* end card */}
+                    <div className="card">
+                        <div className="p-5 flex flex-col">
+                            <div className="rounded-xl overflow-hidden">
+                                <Image src={numeros} />
+                            </div>
+                            <h5 className='text-md md:text-xl 
+                             font-medium mt-3'>Números</h5>
+                             <Link href='/numeros' className='text-center bg-orange-500 text-blue-100 py-4 rounded-lg font-semibold mt-4 hover:bg-orange-600 focus:scale-95 transition-all duration-200 ease-out'>Jogar agora</Link>
                         </div>
                         
                     </div>

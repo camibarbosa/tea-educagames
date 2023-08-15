@@ -8,7 +8,8 @@ export default function Sobre(){
                         <Image className="rounded-lg lg:w-72 " src={sobre} alt="sobre"></Image>
                     </div>
                     <div className="col-span-2">
-                        <h2>Sobre</h2>
+                        <h2 className="mb-4">Sobre</h2>
+                        <h3 className="font-medium font-dela text-center pb-4">TEA EducaGames</h3>
                         <p className="py-2 ">Este site de jogos infantis foi criado para contribuir no processo pedagógico e na aprendizagem de crianças com Transtorno De Espectro Autista (TEA). São jogos interativos e educativos para crianças em idades pré-jardim de infância, jardim de infância e pré-escolar. Jogos que podem ser facilmente utilizado por professores e pais no ensino de algumas tarefas como matemática, alfabetização ou qualquer outra atividade que tenha o objetivo de ensino.</p>
                     </div>
                     

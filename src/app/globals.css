@@ -31,7 +31,7 @@
     @apply bg-[#ecf0f3] tracking-wide
   }
   h2 {
-    @apply text-center tracking-widest font-bold mt-20 text-3xl md:text-5xl font-dela text-sky-600 mb-12;
+    @apply text-center tracking-widest font-bold mt-20 text-3xl md:text-5xl font-dela text-sky-600 mb-8;
   }
 }
 
