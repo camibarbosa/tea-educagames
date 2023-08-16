@@ -32,7 +32,7 @@ function Card() {
                     <div id='membrosFamilia' className="card">
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
-                                <Image src={palavras} />
+                                <Image src={palavras} alt="Desengo de crianças e letras" />
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Palavras</h5>
@@ -44,7 +44,7 @@ function Card() {
                     <div className="card">
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
-                                <Image src={familia} />
+                                <Image src={familia} alt='Desenho deuma familía' />
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Membros da família</h5>
@@ -56,7 +56,7 @@ function Card() {
                     <div className="card">
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
-                                <Image src={almoco} />
+                                <Image src={almoco} alt='Desenho de uma mesa com pessoas'/>
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Hora do almoço!</h5>
@@ -68,7 +68,7 @@ function Card() {
                     <div className="card">
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
-                                <Image src={emocoes} />
+                                <Image src={emocoes} alt='Desenho de um garoto expressando emoções' />
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Emoções</h5>
@@ -80,7 +80,7 @@ function Card() {
                     <div className="card">
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
-                                <Image src={frutas} />
+                                <Image src={frutas} alt='Desenho de frutas' />
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Frutas e suas cores</h5>
@@ -92,7 +92,7 @@ function Card() {
                     <div className="card">
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
-                                <Image src={letras} />
+                                <Image src={letras} alt='Desenho de letras' />
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Letras do alfabeto</h5>
@@ -104,7 +104,7 @@ function Card() {
                     <div className="card">
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
-                                <Image src={sentidos} />
+                                <Image src={sentidos} alt='Desenho de sentidos'/>
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Sentidos</h5>
@@ -116,7 +116,7 @@ function Card() {
                     <div className="card">
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
-                                <Image src={animais} />
+                                <Image src={animais} alt='Desenho de animais'/>
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>O que o animal faz?</h5>
@@ -128,7 +128,7 @@ function Card() {
                     <div className="card">
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
-                                <Image src={formasGeo} />
+                                <Image src={formasGeo} alt='Desenho de formas geométricas'/>
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Formas Geometricas</h5>
@@ -140,7 +140,7 @@ function Card() {
                     <div className="card">
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
-                                <Image src={profissoes} />
+                                <Image src={profissoes} alt='Desenho de profissionais' />
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Profissões</h5>
@@ -152,7 +152,7 @@ function Card() {
                     <div className="card">
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
-                                <Image src={fauna} />
+                                <Image src={fauna} alt='Desenho de floresta' />
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Bichos da fauna brasileira</h5>
@@ -164,7 +164,7 @@ function Card() {
                     <div className="card">
                         <div className="p-5 flex flex-col">
                             <div className="rounded-xl overflow-hidden">
-                                <Image src={numeros} />
+                                <Image src={numeros} alt='Números'/>
                             </div>
                             <h5 className='text-md md:text-xl 
                              font-medium mt-3'>Números</h5>

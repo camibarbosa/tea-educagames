@@ -21,7 +21,7 @@ export default function NavBar() {
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                 {/* LOGO */}
                 <Link href="/" className='max-w-full'>
-                  <Image className='w-24' src={icon} />
+                  <Image className='w-24' src={icon} alt='Logo' />
                 </Link>
                 {/* HAMBURGER BUTTON FOR MOBILE */}
                 <div className="md:hidden">
