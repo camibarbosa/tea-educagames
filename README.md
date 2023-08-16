@@ -4,7 +4,7 @@
 
 Esta é uma versão atualizada do projeto que está sendo desenvolvido para uma atividade extensionista da faculdade.
 
-##Link: https://tea-educagames.vercel.app/
+## Link: https://tea-educagames.vercel.app/
 
 ## Tecnologias Utilizadas
 
